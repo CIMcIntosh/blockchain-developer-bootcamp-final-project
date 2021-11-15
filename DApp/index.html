@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Answer Checker (Basic Visuals)</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <link rel="stylesheet" href="dapp.css">
+
+</head>
+<body>
+  <div id="mm-detected"></div>
+  <button id="mm-connect">Connect to MetaMask</button>
+  <div id="mm-current-account"></div>
+  <br> 
+  <br> 
+
+
+  <h1>Answer Checker</h1>
+  <p>
+    Enter your answers to the questions below and mint a token on success.
+  </p>
+
+<button id="ac-Show-Stats">Show DApp Stats</button>
+</div>
+<div id="ac-display-answerSet"></div>
+<div id="ac-display-totalCorrect"></div>
+<div id="ac-display-totalAttempts"></div>
+<div id="ac-display-totalTokens Minted"></div>
+<div id="ac-display-isusercorrect"></div>
+<div id="ac-display-usertokenminted"></div>
+<div id="ac-display-userattempts"></div>
+
+
+<br> 
+<br> 
+
+
+  <div>
+  <h3>What was the first release code name for Ethereum?</h3>
+  <input id="ac-user-answer-A" type="string" placeholder="Provide Answer A"/> 
+  <h3>What is the smallest unit of Ether called?</h3> 
+  <input id="ac-user-answer-B" type="string" placeholder="Provide Answer B"/>  
+  <h3>What is the last name of the Russian-Canadian founder of Ethereum?</h3>
+  <input id="ac-user-answer-C" type="string" placeholder="Provide Answer C"/>  
+
+</div>
+<br> 
+<br>
+<button id="ac-userinput-button">Submit Answers</button>
+<br> 
+<br>
+<div id="ac-display-correctanswerresult"></div>
+<br> 
+<br>
+<button id="ac-usermint-button">Mint Token</button>
+<br> 
+<br>
+<div id="ac-display-mintInfo" > </div>
+<div id="medal_holder" class="portrait"></div>
+<br> 
+<br>
+  <div>
+
+
+  <div>
+    <h2>Admin  Zone</h2>
+
+  <input id="ac-admin-answer-A" type="string" placeholder="Provide Admin Answer A"/> 
+  <input id="ac-admin-answer-B" type="string" placeholder="Provide Admin Answer B"/>  
+  <input id="ac-admin-answer-C" type="string" placeholder="Provide Admin Answer C"/>  
+  
+  </div>
+  <button id="ac-admininput-button">Submit Admin Value</button>
+
+
+  <!-- Provide an input to change the contract text value -->
+
+
+
+</body>
+
+
+<script src="dapp.js"></script>
+
+
+</html>
